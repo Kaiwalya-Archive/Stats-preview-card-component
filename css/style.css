@@ -26,6 +26,7 @@ body{
     height:100vh;
     font-size: 15px;
     background: var(--main-back);
+    padding: 2.5rem;
 }
 
 .container{
@@ -35,11 +36,13 @@ body{
     justify-content: center;
     align-items: center;
     background: var(--card-back);
+    padding-bottom:1rem;
+    border-radius: 15px;
 }
 
 img{
-    height: 30vh;
-    width:70vw;
+    height: 35vh;
+    width:100vw;
 }
 
 .header{
@@ -48,6 +51,7 @@ img{
     font-family: var(--primary-font);
     font-weight: var(--weight-two);
     text-align: center;
+    padding:0.75rem;
 }
 
 .info-para{
@@ -55,7 +59,8 @@ img{
     color:var(--main-para);
     font-family: var(--secondary-font);
     font-weight: var(--weigt-two);
-    font-size: 1rem;
+    font-size: 0.9rem;
+    padding:1rem;
 }
 
 .stats{
@@ -68,11 +73,20 @@ img{
 }
 
 .up-text{
+    font-family: var(--primary-font);
     color: var(--main-heading);
+    font-weight: var(--weight-two);
+    font-size: 1.15rem;
+    padding:0.5rem;
 }
 
 .down-text{
+    font-family: var(--secondary-font);
     color: var(--stat-heading);
+    font-weight: var(--weight-one);
+    text-transform: uppercase;
+    font-size: 0.6rem;
+    padding:0.1rem;
 }
 
 .insights{
